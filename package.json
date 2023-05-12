@@ -5,6 +5,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "test": "vitest",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -17,6 +18,9 @@
   },
   "dependencies": {
     "@nuxt/test-utils": "^3.4.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.0.0",
     "vitest": "^0.30.1"
   }
 }
