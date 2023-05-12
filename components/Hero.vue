@@ -9,10 +9,8 @@
                     <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">O que fazer hoje?</h1>
                     <p class="mt-6 text-lg leading-8 text-gray-600">Encontre o bar perfeito para tomar uma com seus amigos</p>
                 </div>
-                <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                        Encontre o bar certo agora. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />Digite <span aria-hidden="true">&rarr;</span></a>
-                    </div>
+                <div class="sm:mb-8 sm:flex sm:justify-center">
+                    <SearchBar />
                 </div>
             </div>
             <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
@@ -23,5 +21,5 @@
 </template>
 
 <script setup>
-
+    import SearchBar from '@/components/SearchBar'
 </script>
