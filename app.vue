@@ -9,15 +9,15 @@
   import Hero from '@/components/Hero'
 
   useHead({
-  title: 'HalGPT - Busca Bar',
+  title: 'Busca Bar | HalGPT',
   meta: [
     { name: 'description', content: 'HalGPT encontra bares.' }
   ]
   })
 
   useSeoMeta({
-    title: 'HalGPT - Busca Bar',
-    ogTitle: 'HalGPT - Busca Bar',
+    title: 'Busca Bar | HalGPT',
+    ogTitle: 'Busca Bar | HalGPT',
     description: 'Encontramos os melhores bares para você.',
     ogDescription: 'Encontramos os melhores bares para você.',
     //ogImage: 'https://example.com/image.png',
