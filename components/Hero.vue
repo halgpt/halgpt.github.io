@@ -9,7 +9,7 @@
                     <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">O que fazer hoje?</h1>
                     <p class="mt-6 text-lg leading-8 text-gray-600">Encontre o bar perfeito para tomar uma com seus amigos</p>
                 </div>
-                <div class="sm:mb-8 sm:flex sm:justify-center">
+                <div class="mb-8 flex justify-center">
                     <SearchBar />
                 </div>
             </div>
